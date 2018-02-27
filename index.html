@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/ html;charset=utf-8" />
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 
     <title>Portfolio Page</title>
@@ -13,6 +14,7 @@
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
+
   </head>
 
   <body>
@@ -21,59 +23,62 @@
       <object data="img/logo.svg" type="image/svg+xml"></object>
       <h1>circular code</h1>
       <h4 id="liveByTheCode">live by the code</h4>
+      <span id="timer"></span>
     </header>
 
     <hr>
 
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-     </nav>
-
     <main>
 
-      <article id="jumboPicture">
-        <!-- <img src="img/jumbo.png" alt="landing page intro picture"> -->
-      </article>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#" title="fake news">About Me</a></li>
+          <li><a href="#" title="fake news">Projects</a></li>
+          <li><a href="#" title="fake news">Contact</a></li>
+        </ul>
+      </nav>
 
-      <aside id="featuredWork">
-        <h2>Featured Work</h2>
-
+      <article id="workExamples">
         <ul>
           <li>
-            <a href="#">
-              <img src="" alt="">
-              <h2>appify</h2>
-              <p>Bacon ipsum dolor amet chicken filet mignon salami leberkas sausage, turducken jowl andouille tongue tail. Shankle tail turducken buffalo, sausage alcatra brisket cow porchetta. Hamburger picanha bacon bresaola t-bone cupim venison ham.</p>
+            <a href="https://circular-code.github.io/pxmaker/">
+              <img class="zoom fadeIn " src="img/pxmaker.png" alt="pxmaker-preview">
+              <h2>pxmaker</h2>
+              <p>A sprite editing tool based on the final project of the google web developer scolarship challenge.</p>
             </a>
           </li>
           <li>
-            <a href="#">
-              <img src="" alt="">
-              <h2>sunflower</h2>
-              <p>Ground round swine landjaeger kielbasa pig frankfurter fatback pork loin spare ribs beef ribs. Ribeye jowl andouille doner turducken chuck sirloin ham hock jerky venison buffalo. </p>
+            <a href="http://eco-druck.de/Unternehmen">
+              <img class="zoom fadeIn " src="img/eco.png" alt="eco-preview">
+              <h2>eco druck</h2>
+              <p>A website for a local operating instructions printing company.</p>
             </a>
           </li>
           <li>
-            <a href="#">
-              <img src="" alt="">
-              <h2>bokeh</h2>
-              <p>Pork chop pork loin picanha swine, cow bacon capicola pastrami kielbasa porchetta ribeye boudin.</p>
+            <a href="https://github.com/circular-code/screenspy/">
+              <img class="zoom fadeIn " src="img/screenspy.png" alt="screenspy-preview">
+              <h2>screenspy</h2>
+              <p>Web application for displaying screen content.</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spendenspiegel.de">
+              <img class="zoom fadeIn " src="img/spendenspiegel.png" alt="screenspy-preview">
+              <h2>spendenspiegel</h2>
+              <p>A website for a local donation distribution company.</p>
             </a>
           </li>
         </ul>
-      </aside>
+      </article>
 
     </main>
 
     <hr class="reverse">
 
     <footer>
-      <p>©Copyright 2018 by circular-code. All rights reversed.</p>
+      <p>©Copyright 2018 by circular code. All rights reversed.</p>
     </footer>
+
   </body>
 </html>
