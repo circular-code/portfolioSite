@@ -414,3 +414,9 @@ body.initialised object {
         border: none;
     }
 }
+
+@media screen and (max-width: 380px) {
+    footer p {
+        font-size: 1.4em;
+    }
+}
